@@ -1,0 +1,19 @@
+{
+  "name": "jest_with_puputeer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-jest": "jest --testTimeout=100000",
+    "test-chai_mocha": "node ./node_modules/mocha/bin/mocha --timeout=100000 ./tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "jest": "^27.1.1",
+    "mocha": "^9.1.1",
+    "puppeteer": "^10.2.0"
+  }
+}
