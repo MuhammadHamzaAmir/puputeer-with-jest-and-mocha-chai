@@ -26,5 +26,5 @@ async function testing(){
         await browser.close();
         return "OK TEST PASSED"
 }
-
+testing();
 module.exports={testing};

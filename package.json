@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test-jest": "jest --testTimeout=100000",
-    "test-chai_mocha": "node ./node_modules/mocha/bin/mocha --timeout=100000 ./tests"
+    "test-chai_mocha": "node ./node_modules/mocha/bin/mocha --timeout=100000 ./tests",
+    "test_tutorial_file": "node tests/tutorial_file.js"
   },
   "keywords": [],
   "author": "",
